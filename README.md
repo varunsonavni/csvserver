@@ -18,6 +18,7 @@ docker image inspect 8cb989ef80b5 | grep "tcp" | uniq | sed 's/"//g;s/ //g' | aw
 docker run
 ```
 
+
 Creating gencsv.sh and execute it to generate a file named inputFile.
 
 ### Run the docker with Env Var and Dir Mount and go inside container and check input file is there.
