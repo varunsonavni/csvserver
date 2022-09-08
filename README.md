@@ -20,16 +20,14 @@ docker run
 
 Creating gencsv.sh and execute it to generate a file named inputFile.
 
-### Run the docker with Env Var and Dir Mount.
+### Run the docker with Env Var and Dir Mount and go inside container and check input file is there.
 
 ```
 docker run --name csvserver2 -e CSVSERVER_BORDER=Orange -dp 9393:9300 -v /root/infra/csvserver/solution/inputFile:/csvserver/inputdata 8cb989ef80b5 tail -f /dev/null
-```
-### Start the csvserver
 
-```
 docker exec -d csvserver ./csvserver
 ```
+
 ### Docker compose
 ```
 docker-compose up
