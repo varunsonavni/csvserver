@@ -14,3 +14,17 @@ docker run
 
 ### Creating gencsv.sh and execute it to generate a file named inputFile.
 
+### Run the docker with Env Var and Dir Mount.
+
+```
+docker
+```
+### Start the csvserver
+
+```
+docker exec -d csvserver ./csvserver
+```
+### Docker compose
+```
+docker-compose up
+```
