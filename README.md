@@ -12,7 +12,7 @@ docker pull prom/prometheus:v2.22.0
 docker run
 ```
 
-### Creating gencsv.sh and execute it to generate a file named inputFile.
+Creating gencsv.sh and execute it to generate a file named inputFile.
 
 ### Run the docker with Env Var and Dir Mount.
 
