@@ -15,7 +15,6 @@ docker image inspect 8cb989ef80b5 | grep "tcp" | uniq | sed 's/"//g;s/ //g' | aw
 
 ### Run the docker container with following command:
 ```
-```
 docker run
 ```
 
